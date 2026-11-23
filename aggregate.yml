@@ -1,8 +1,9 @@
 name: '@miorin/dsh-atlas-runtime'
 version: 0.1.0
-private: true
+description: 'See running jobs from all sessions above the account control in the left sidebar.'
+license: MIT
 engines:
   dsh: '0.2.2-rc.5'
 plugins:
   - name: '@miorin/dsh-background-jobs-sidebar'
-    spec: link:../dsh-background-jobs-sidebar
+    spec: 0.1.0

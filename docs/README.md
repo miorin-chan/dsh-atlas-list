@@ -1,47 +1,48 @@
-# 本地安装和验证
+# 运行时 Atlas 开发与验证
 
-## 准备
+[中文使用说明](../README.zh.md) · [English guide](../README.md)
 
-使用 DeepSeek Harness `0.2.2-rc.5` 的桌面端或 Web 客户端。
-准备源码需要 Node.js 22.18 或更新版本、npm 和 pnpm。
-聚合包与[后台任务侧栏](../../dsh-background-jobs-sidebar/README.zh.md)的源码目录在默认工作区的 `plugins/` 下相邻。
-在工作区根目录运行以下命令。准备工具先构建链接的成员，再生成聚合包。
+## 安装与启停
+
+本包适用于 DeepSeek Harness `0.2.2-rc.5`。
+通过总 Atlas 开启运行时成员后，「运行时模块化改良计划」卡片会出现「后台任务侧栏」的独立开关。
+在左侧边栏展开时，任务区位于账号控件上方。
+
+独立的后台任务侧栏与本包共用 `dsh-background-jobs-sidebar` 行 ID。
+切换到运行时 Atlas 前，先停用独立 bundle。
+
+## 生成与发布
+
+[聚合清单](../aggregate.yml)固定成员的 npm 版本。
+包内生成器从该版本读取 patch，更新 `package.json` 的聚合字段与 `cordis.patch.yml`。
+从干净检出用 Node.js 22.18 或更新版本运行：
 
 ```sh
-pnpm --dir tools/dsh-aggregate install --frozen-lockfile --ignore-scripts
-node tools/dsh-plugin-ts/prepare.mts plugins/dsh-atlas-runtime
+pnpm install --frozen-lockfile
+npm test
+npm run check
+npm run prepublishOnly
+npm pack --dry-run --json
 ```
 
-从 **插件 → 添加插件** 选择准备工具输出的 `dsh-atlas-runtime` 目录。
-打开「运行时模块化改良计划」卡片，可单独启停「后台任务侧栏」。
-若同一 profile 已启用独立的后台任务侧栏，先停用独立 bundle，再添加聚合包。
-两种安装方式共用行 ID。
+更新成员时先发布源插件，编辑 `aggregate.yml`，安装其固定版本并运行 `npm run build`。
+提交锁文件与生成结果。`prepublishOnly` 核对本次安装的依赖来自检出目录内的注册表依赖树。
 
-## 维护
-
-[聚合清单](../aggregate.yml)指向同级源码目录。
-工作区生成器复制源插件的 patch，并把链接依赖写入包清单。
-在聚合包目录运行 `npm test` 重新生成并校验。`npm run check` 只读检查生成物是否与源清单一致。
-从工作区根目录再运行脚手架校验。
+在默认工作区还可运行脚手架校验：
 
 ```sh
 node tools/new-dsh-plugin/cli.mts --check plugins/dsh-atlas-runtime
 ```
 
-## 一次性 profile 实测
+## 一次性 profile 验证
 
-2026-11-23，用 DSH `0.2.2-rc.5` Web 和 Chrome 验证了工作区中的本地链接。
-Web profile 只添加聚合包，合成配置通过该包加载一条 `dsh-background-jobs-sidebar`。
-在原生详情页逐项和整包启停，核对任务区及其 Host 路由的移除与恢复，整包重开后保留成员开关。
-用本地模型和限时任务夹具确认会话任务与共享任务的计数从 0 到 2 再到 0，点击会话任务可回到所属会话。
-另核对了中文深色、英文浅色、390 px 宽度的详情布局，以及 8 种语言各自可读的详情文件。
+在一次性 profile 安装 npm 包，检查合成配置中只有一条 `dsh-background-jobs-sidebar`。
+在插件页启停整包和成员行，观察侧栏任务区的出现与消失。
+如果成员处于停用状态，循环启停整包后该成员应保持停用。
+用一个会话任务和一个共享任务检查计数变化，并点击会话任务返回所属会话。
 
-[实测记录与截图](../../../archive/tasks/2026/2026-11-23-atlas-runtime/README.md)
+## Local development
 
-## Local installation
-
-Use DSH `0.2.2-rc.5`, Node.js 22.18 or newer, npm, and pnpm.
-Keep this checkout next to the background jobs sidebar.
-Run the [preparation commands](#准备) from the workspace root,
-then choose the printed `dsh-atlas-runtime` path in **Plugins → Add plugin**.
-If the standalone sidebar is enabled in that profile, turn it off before adding this bundle.
+Use Node.js 22.18 or newer and run `pnpm install --frozen-lockfile`, `npm test`, and `npm run check` from this checkout.
+For local UI testing, choose the prepared directory in **Plugins → Add plugin** in a disposable profile.
+If the standalone sidebar is enabled, switch it off before enabling this bundle because they share a plugin row.
