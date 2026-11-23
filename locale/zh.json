@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "运行时模块化改良计划",
+    "description": "展开左侧边栏，在账号控件上方的「后台任务」查看各会话中正在运行的任务。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

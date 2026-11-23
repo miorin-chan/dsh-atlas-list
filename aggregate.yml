@@ -1,0 +1,8 @@
+name: '@miorin/dsh-atlas-runtime'
+version: 0.1.0
+private: true
+engines:
+  dsh: '0.2.2-rc.5'
+plugins:
+  - name: '@miorin/dsh-background-jobs-sidebar'
+    spec: link:../dsh-background-jobs-sidebar

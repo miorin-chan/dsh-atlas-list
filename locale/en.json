@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Runtime Modular Improvement Plan",
+    "description": "Expand the left sidebar and find Background jobs above the account control to see what is running across sessions.",
+    "detail": "docs/DETAIL.en.md"
+  }
+}

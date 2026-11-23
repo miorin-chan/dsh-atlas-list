@@ -1,0 +1,53 @@
+{
+  "name": "@miorin/dsh-atlas-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Expand the left sidebar and find Background jobs above the account control to see what is running across sessions.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-bundle",
+    "runtime",
+    "aggregate"
+  ],
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "aggregate.yml",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "AGENTS.md",
+    "AGENTS.local.md",
+    "docs/README.md",
+    "docs/DETAIL.*.md"
+  ],
+  "engines": {
+    "dsh": "0.2.2-rc.5"
+  },
+  "scripts": {
+    "build": "node ../../tools/dsh-aggregate/src/cli.mts generate .",
+    "prepare": "npm run build 1>&2",
+    "test": "npm run build && npm run check",
+    "check": "node ../../tools/dsh-aggregate/src/cli.mts check ."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "aggregate": {
+      "plugins": [
+        "@miorin/dsh-background-jobs-sidebar"
+      ]
+    }
+  },
+  "dependencies": {
+    "@miorin/dsh-background-jobs-sidebar": "link:../dsh-background-jobs-sidebar"
+  }
+}

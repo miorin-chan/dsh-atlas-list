@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Plano de melhoria modular do ambiente de execução",
+    "description": "Expanda a barra lateral esquerda. Em «Tarefas em segundo plano», acima do menu da conta, você vê as tarefas em execução de todas as sessões.",
+    "detail": "docs/DETAIL.pt.md"
+  }
+}
