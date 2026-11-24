@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@miorin/dsh-aggressive-sidebar':
+        specifier: link:../dsh-aggressive-sidebar
+        version: link:../dsh-aggressive-sidebar
       '@miorin/dsh-background-jobs-sidebar':
         specifier: 0.1.0
         version: 0.1.0
+      '@miorin/dsh-undo-unsent':
+        specifier: link:../dsh-undo-unsent
+        version: link:../dsh-undo-unsent
     devDependencies:
       esbuild:
         specifier: 0.28.2

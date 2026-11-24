@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Runtime Modular Improvement Plan",
-    "description": "Expand the left sidebar and find Background jobs above the account control to see what is running across sessions.",
+    "description": "See running jobs across sessions, withdraw pending messages, and choose how the right sidebar opens.",
     "detail": "docs/DETAIL.en.md"
   }
 }

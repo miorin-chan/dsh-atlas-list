@@ -3,7 +3,8 @@
 本仓库维护运行时 Atlas 聚合包。中文界面标题是「运行时模块化改良计划」，英文是 `Runtime Modular Improvement Plan`。
 卡片元数据同步维护八种语言。
 
-[聚合清单](aggregate.yml)记录成员的固定 npm 版本。
+[聚合清单](aggregate.yml)记录成员来源。
+后台任务侧栏固定 npm 版本，君子未言和激进侧边栏链接到同工作区内的源码。
 [scripts/aggregate/](scripts/aggregate/) 由默认工作区的 `tools/dsh-aggregate` 同步。
 生成器更新依赖字段与 patch，保留源插件的行 ID 和配置。
 成员行为在各自的源码仓库维护。保留成员的独立安装方式，同一 profile 选择一种加载方式。

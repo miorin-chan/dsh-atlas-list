@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plan de mejora modular del entorno de ejecución",
-    "description": "Despliega la barra lateral izquierda. En «Tareas en segundo plano», sobre el menú de la cuenta, verás las tareas en ejecución de todas las sesiones.",
+    "description": "Consulta las tareas en ejecución de todas las sesiones, retira mensajes pendientes y elige cómo se abre la barra lateral derecha.",
     "detail": "docs/DETAIL.es.md"
   }
 }

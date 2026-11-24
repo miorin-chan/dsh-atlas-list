@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plan d’amélioration modulaire de l’environnement d’exécution",
-    "description": "Déployez la barre latérale gauche. Au-dessus du menu du compte, « Tâches en arrière-plan » affiche les tâches en cours de toutes les sessions.",
+    "description": "Consultez les tâches en cours de toutes les sessions, retirez les messages en attente et choisissez comment s’ouvre la barre latérale droite.",
     "detail": "docs/DETAIL.fr.md"
   }
 }
