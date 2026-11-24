@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plan de mejora modular del entorno de ejecución",
-    "description": "Consulta las tareas en ejecución de todas las sesiones, retira mensajes pendientes y elige cómo se abre la barra lateral derecha.",
+    "description": "Consulta las tareas en ejecución de todas las sesiones y elige cómo se abre la barra lateral derecha.",
     "detail": "docs/DETAIL.es.md"
   }
 }

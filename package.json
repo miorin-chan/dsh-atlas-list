@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "description": "See running jobs across sessions, withdraw pending messages, and choose how the right sidebar opens.",
+  "description": "See running jobs across sessions and choose how the right sidebar opens.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miorin-chan/dsh-atlas-runtime.git"
@@ -59,14 +59,12 @@
     "aggregate": {
       "plugins": [
         "@miorin/dsh-background-jobs-sidebar",
-        "@miorin/dsh-undo-unsent",
         "@miorin/dsh-aggressive-sidebar"
       ]
     }
   },
   "dependencies": {
     "@miorin/dsh-background-jobs-sidebar": "0.1.0",
-    "@miorin/dsh-undo-unsent": "link:../dsh-undo-unsent",
     "@miorin/dsh-aggressive-sidebar": "link:../dsh-aggressive-sidebar"
   }
 }

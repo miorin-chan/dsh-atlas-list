@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plano de melhoria modular do ambiente de execução",
-    "description": "Veja as tarefas em execução em todas as sessões, retire mensagens pendentes e escolha o modo de abertura da barra lateral direita.",
+    "description": "Veja as tarefas em execução em todas as sessões e escolha o modo de abertura da barra lateral direita.",
     "detail": "docs/DETAIL.pt.md"
   }
 }

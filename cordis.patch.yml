@@ -5,9 +5,6 @@
     # @miorin/dsh-background-jobs-sidebar
     - id: dsh-background-jobs-sidebar
       name: '@miorin/dsh-background-jobs-sidebar'
-    # @miorin/dsh-undo-unsent
-    - id: dsh-undo-unsent
-      name: '@miorin/dsh-undo-unsent'
     # @miorin/dsh-aggressive-sidebar
     - id: dsh-aggressive-sidebar
       name: '@miorin/dsh-aggressive-sidebar'

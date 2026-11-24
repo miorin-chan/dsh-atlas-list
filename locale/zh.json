@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "运行时模块化改良计划",
-    "description": "查看各会话的后台任务、撤回待发消息，并设置右侧栏的展开模式。",
+    "description": "查看各会话的后台任务，并设置右侧栏的展开模式。",
     "detail": "docs/DETAIL.zh.md"
   }
 }

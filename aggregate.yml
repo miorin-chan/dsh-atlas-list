@@ -1,13 +1,11 @@
 name: '@miorin/dsh-atlas-runtime'
 version: 0.1.0
-description: 'See running jobs across sessions, withdraw pending messages, and choose how the right sidebar opens.'
+description: 'See running jobs across sessions and choose how the right sidebar opens.'
 license: MIT
 engines:
   dsh: '0.2.2-rc.5'
 plugins:
   - name: '@miorin/dsh-background-jobs-sidebar'
     spec: 0.1.0
-  - name: '@miorin/dsh-undo-unsent'
-    spec: link:../dsh-undo-unsent
   - name: '@miorin/dsh-aggressive-sidebar'
     spec: link:../dsh-aggressive-sidebar

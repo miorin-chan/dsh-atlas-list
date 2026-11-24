@@ -4,7 +4,6 @@
 
 See running jobs from all sessions above the account control in the left sidebar.
 Select a job with a known session to open its conversation.
-With **Left Unsaid**, use the undo arrow below a pending message to withdraw it.
 With **Aggressive sidebar** enabled, choose **Opening mode** on the bundle’s detail page.
 Each feature has its own switch.
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Runtime Modular Improvement Plan",
-    "description": "See running jobs across sessions, withdraw pending messages, and choose how the right sidebar opens.",
+    "description": "See running jobs across sessions and choose how the right sidebar opens.",
     "detail": "docs/DETAIL.en.md"
   }
 }
