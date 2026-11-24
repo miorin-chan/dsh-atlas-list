@@ -1,6 +1,6 @@
 name: '@miorin/dsh-atlas-list'
 version: 0.1.0
-description: 'Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs across sessions.'
+description: 'Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs and DeepSeek pricing hours.'
 license: MIT
 engines:
   dsh: '0.2.2-rc.5'
@@ -13,3 +13,5 @@ plugins:
     spec: link:../dsh-watched-sessions
   - name: '@miorin/dsh-background-jobs-sidebar'
     spec: 0.1.0
+  - name: '@miorin/dsh-peak-pricing-sidebar'
+    spec: link:../dsh-peak-pricing-sidebar

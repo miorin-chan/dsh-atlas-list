@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Modularer Verbesserungsplan für Listen",
-    "description": "Wechsle die Listenansicht in der Seitenleiste, erkenne ungesendete Entwürfe, behalte beobachtete Sitzungen im Blick und sieh laufende Aufgaben aus allen Sitzungen.",
+    "description": "Wechsle die Listenansicht in der Seitenleiste, erkenne ungesendete Entwürfe, behalte beobachtete Sitzungen im Blick und sieh laufende Aufgaben aus allen Sitzungen. Die Seitenleiste zeigt auch die Haupt- und Nebenzeiten für DeepSeek-Tarife.",
     "detail": "docs/DETAIL.de.md"
   }
 }

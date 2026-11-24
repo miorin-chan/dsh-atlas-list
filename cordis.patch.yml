@@ -14,3 +14,6 @@
     # @miorin/dsh-background-jobs-sidebar
     - id: dsh-background-jobs-sidebar
       name: '@miorin/dsh-background-jobs-sidebar'
+    # @miorin/dsh-peak-pricing-sidebar
+    - id: dsh-peak-pricing-sidebar
+      name: '@miorin/dsh-peak-pricing-sidebar'

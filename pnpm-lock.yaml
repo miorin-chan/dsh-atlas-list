@@ -11,6 +11,9 @@ importers:
       '@miorin/dsh-background-jobs-sidebar':
         specifier: 0.1.0
         version: 0.1.0
+      '@miorin/dsh-peak-pricing-sidebar':
+        specifier: link:../dsh-peak-pricing-sidebar
+        version: link:../dsh-peak-pricing-sidebar
       '@miorin/dsh-session-draft':
         specifier: 0.1.0
         version: 0.1.0
