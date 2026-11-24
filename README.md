@@ -9,4 +9,4 @@ Each feature has its own switch.
 
 Requires DeepSeek Harness `0.2.2-rc.5`.
 Follow the [local installation guide](docs/README.md#local-development), then manage this bundle from **Plugins**
-or **Modular Improvement Plan Manager**.
+or **Atlas Modular Improvement Plan**.
