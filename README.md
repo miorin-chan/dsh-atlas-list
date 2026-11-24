@@ -2,7 +2,8 @@
 
 [简体中文](README.zh.md)
 
-Switch sidebar list views, see unsent drafts, keep watched sessions at the top,
-and see active jobs across sessions. Each feature has its own switch.
+Switch sidebar list views, spot unsent drafts, and keep watched sessions at the top.
+See active jobs across sessions and jump to their conversations.
+Each feature has its own switch.
 
-Requires DeepSeek Harness `0.2.2-rc.5`. Follow the [local installation and migration guide](docs/README.md#local-development).
+[Full documentation](docs/README.md#usage)
