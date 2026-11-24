@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Modularer Verbesserungsplan für die Laufzeit",
-    "description": "Sieh laufende Aufgaben aus allen Sitzungen und wähle, wie sich die rechte Seitenleiste öffnet.",
+    "title": "Modularer Verbesserungsplan für Listen",
+    "description": "Wechsle die Listenansicht in der Seitenleiste, erkenne ungesendete Entwürfe, behalte beobachtete Sitzungen im Blick und sieh laufende Aufgaben aus allen Sitzungen.",
     "detail": "docs/DETAIL.de.md"
   }
 }

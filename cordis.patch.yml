@@ -2,9 +2,15 @@
 # Regenerate the patch after editing aggregate.yml.
 
 - insert:
+    # @miorin/dsh-workspace-list-toggle
+    - id: dsh-workspace-list-toggle
+      name: '@miorin/dsh-workspace-list-toggle'
+    # @miorin/dsh-session-draft
+    - id: dsh-session-draft
+      name: '@miorin/dsh-session-draft'
+    # @miorin/dsh-watched-sessions
+    - id: dsh-watched-sessions
+      name: '@miorin/dsh-watched-sessions'
     # @miorin/dsh-background-jobs-sidebar
     - id: dsh-background-jobs-sidebar
       name: '@miorin/dsh-background-jobs-sidebar'
-    # @miorin/dsh-aggressive-sidebar
-    - id: dsh-aggressive-sidebar
-      name: '@miorin/dsh-aggressive-sidebar'

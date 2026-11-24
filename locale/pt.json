@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plano de melhoria modular do ambiente de execução",
-    "description": "Veja as tarefas em execução em todas as sessões e escolha o modo de abertura da barra lateral direita.",
+    "title": "Plano de melhoria modular das listas",
+    "description": "Alterne a visualização da barra lateral, identifique rascunhos não enviados, mantenha as sessões acompanhadas à vista e veja as tarefas em execução de todas as sessões.",
     "detail": "docs/DETAIL.pt.md"
   }
 }

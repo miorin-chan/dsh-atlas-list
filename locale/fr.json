@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plan d’amélioration modulaire de l’environnement d’exécution",
-    "description": "Consultez les tâches en cours de toutes les sessions et choisissez comment s’ouvre la barre latérale droite.",
+    "title": "Plan d’amélioration modulaire des listes",
+    "description": "Changez la vue de la barre latérale, repérez les brouillons non envoyés, gardez les sessions suivies en vue et consultez les tâches en cours de toutes les sessions.",
     "detail": "docs/DETAIL.fr.md"
   }
 }

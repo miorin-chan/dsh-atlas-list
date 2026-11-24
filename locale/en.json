@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Runtime Modular Improvement Plan",
-    "description": "See running jobs across sessions and choose how the right sidebar opens.",
+    "title": "List Modular Improvement Plan",
+    "description": "Switch sidebar list views, mark unsent drafts, keep watched sessions visible, and see active jobs across sessions.",
     "detail": "docs/DETAIL.en.md"
   }
 }

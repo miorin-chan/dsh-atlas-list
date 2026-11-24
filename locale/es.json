@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Plan de mejora modular del entorno de ejecución",
-    "description": "Consulta las tareas en ejecución de todas las sesiones y elige cómo se abre la barra lateral derecha.",
+    "title": "Plan de mejora modular de las listas",
+    "description": "Cambia la vista de la barra lateral, identifica borradores sin enviar, mantén a la vista las sesiones que sigues y consulta las tareas activas de todas las sesiones.",
     "detail": "docs/DETAIL.es.md"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "name": "@miorin/dsh-atlas-runtime",
+  "name": "@miorin/dsh-atlas-list",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "description": "See running jobs across sessions and choose how the right sidebar opens.",
+  "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs across sessions.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miorin-chan/dsh-atlas-runtime.git"
+    "url": "git+https://github.com/miorin-chan/dsh-atlas-list.git"
   },
   "keywords": [
     "deepseek-harness",
     "dsh",
     "dsh-bundle",
-    "runtime",
+    "sidebar-list",
     "aggregate"
   ],
   "exports": {
@@ -58,13 +58,17 @@
     },
     "aggregate": {
       "plugins": [
-        "@miorin/dsh-background-jobs-sidebar",
-        "@miorin/dsh-aggressive-sidebar"
+        "@miorin/dsh-workspace-list-toggle",
+        "@miorin/dsh-session-draft",
+        "@miorin/dsh-watched-sessions",
+        "@miorin/dsh-background-jobs-sidebar"
       ]
     }
   },
   "dependencies": {
-    "@miorin/dsh-background-jobs-sidebar": "0.1.0",
-    "@miorin/dsh-aggressive-sidebar": "link:../dsh-aggressive-sidebar"
+    "@miorin/dsh-workspace-list-toggle": "0.1.0",
+    "@miorin/dsh-session-draft": "0.1.0",
+    "@miorin/dsh-watched-sessions": "link:../dsh-watched-sessions",
+    "@miorin/dsh-background-jobs-sidebar": "0.1.0"
   }
 }
