@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "List Modular Improvement Plan",
-    "description": "Switch sidebar list views, mark unsent drafts, keep watched sessions visible, and see active jobs across sessions.",
+    "description": "Switch sidebar list views, mark unsent drafts, keep watched sessions visible, see active jobs, and check collapsed sidebar session counts.",
     "detail": "docs/DETAIL.en.md"
   }
 }

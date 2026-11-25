@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Modularer Verbesserungsplan für Listen",
-    "description": "Wechsle die Listenansicht in der Seitenleiste, erkenne ungesendete Entwürfe, behalte beobachtete Sitzungen im Blick und sieh laufende Aufgaben aus allen Sitzungen.",
+    "description": "Wechsle die Listenansicht, erkenne ungesendete Entwürfe, behalte beobachtete Sitzungen im Blick, sieh laufende Aufgaben und prüfe Statuszähler bei eingeklappter Seitenleiste.",
     "detail": "docs/DETAIL.de.md"
   }
 }

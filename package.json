@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs across sessions.",
+  "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, see active jobs, and check collapsed sidebar session counts.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miorin-chan/dsh-atlas-list.git"
@@ -61,8 +61,16 @@
         "@miorin/dsh-session-list-toggle",
         "@miorin/dsh-session-draft",
         "@miorin/dsh-watched-sessions",
-        "@miorin/dsh-background-jobs-sidebar"
-      ]
+        "@miorin/dsh-background-jobs-sidebar",
+        "@miorin/dsh-collapsed-sidebar-status"
+      ],
+      "defaults": {
+        "@miorin/dsh-session-list-toggle": true,
+        "@miorin/dsh-session-draft": true,
+        "@miorin/dsh-watched-sessions": true,
+        "@miorin/dsh-background-jobs-sidebar": true,
+        "@miorin/dsh-collapsed-sidebar-status": true
+      }
     },
     "client": {
       "platform": "web",
@@ -79,6 +87,7 @@
     "@miorin/dsh-session-draft": "0.1.0",
     "@miorin/dsh-watched-sessions": "link:../dsh-watched-sessions",
     "@miorin/dsh-background-jobs-sidebar": "link:../dsh-background-jobs-sidebar",
-    "@miorin/dsh-session-list-toggle": "link:../dsh-session-list-toggle"
+    "@miorin/dsh-session-list-toggle": "link:../dsh-session-list-toggle",
+    "@miorin/dsh-collapsed-sidebar-status": "link:../dsh-collapsed-sidebar-status"
   }
 }

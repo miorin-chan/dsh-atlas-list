@@ -1,15 +1,22 @@
 name: '@miorin/dsh-atlas-list'
 version: 0.1.0
-description: 'Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs across sessions.'
+description: 'Switch sidebar list views, mark drafts, keep watched sessions visible, see active jobs, and check collapsed sidebar session counts.'
 license: MIT
 engines:
   dsh: '0.2.2-rc.5'
 plugins:
   - name: '@miorin/dsh-session-list-toggle'
     spec: link:../dsh-session-list-toggle
+    enabled: true
   - name: '@miorin/dsh-session-draft'
     spec: 0.1.0
+    enabled: true
   - name: '@miorin/dsh-watched-sessions'
     spec: link:../dsh-watched-sessions
+    enabled: true
   - name: '@miorin/dsh-background-jobs-sidebar'
     spec: link:../dsh-background-jobs-sidebar
+    enabled: true
+  - name: '@miorin/dsh-collapsed-sidebar-status'
+    spec: link:../dsh-collapsed-sidebar-status
+    enabled: true

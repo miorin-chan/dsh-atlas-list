@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plano de melhoria modular das listas",
-    "description": "Alterne a visualização da barra lateral, identifique rascunhos não enviados, mantenha as sessões acompanhadas à vista e veja as tarefas em execução de todas as sessões.",
+    "description": "Alterne a visualização da barra lateral, identifique rascunhos, mantenha sessões acompanhadas à vista, veja tarefas ativas e confira contadores com a barra recolhida.",
     "detail": "docs/DETAIL.pt.md"
   }
 }

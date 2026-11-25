@@ -11,6 +11,9 @@ importers:
       '@miorin/dsh-background-jobs-sidebar':
         specifier: link:../dsh-background-jobs-sidebar
         version: link:../dsh-background-jobs-sidebar
+      '@miorin/dsh-collapsed-sidebar-status':
+        specifier: link:../dsh-collapsed-sidebar-status
+        version: link:../dsh-collapsed-sidebar-status
       '@miorin/dsh-session-draft':
         specifier: 0.1.0
         version: 0.1.0

@@ -14,6 +14,9 @@
     # @miorin/dsh-background-jobs-sidebar
     - id: dsh-background-jobs-sidebar
       name: '@miorin/dsh-background-jobs-sidebar'
+    # @miorin/dsh-collapsed-sidebar-status
+    - id: dsh-collapsed-sidebar-status
+      name: '@miorin/dsh-collapsed-sidebar-status'
     # @miorin/dsh-atlas-list (aggregate runtime)
     - id: dsh-atlas-list
       name: "@miorin/dsh-atlas-list"
