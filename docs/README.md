@@ -2,8 +2,8 @@
 
 ## 使用
 
-- [左侧栏列表三态切换](../../dsh-workspace-list-toggle/README.zh.md)。
-  点击列表标题旁的箭头，在「全部」「收起」和「需关注」之间切换。
+- [左侧栏列表三态切换](../../dsh-session-list-toggle/README.zh.md)。
+  点击列表标题或箭头，在「全部」「收起」和「需关注」之间切换。
 - [会话草稿](../../dsh-session-draft/README.zh.md)。
   有未发送草稿的空闲会话旁会显示铅笔。
   启用三态切换后，这些会话也会出现在「需关注」视图中。
@@ -36,8 +36,8 @@
 
 ## Usage
 
-- [Sidebar list toggle](../../dsh-workspace-list-toggle/README.md).
-  Click the arrow next to the list heading to cycle through **All**, **Collapsed**, and **Needs attention**.
+- [Sidebar list toggle](../../dsh-session-list-toggle/README.md).
+  Select the list heading or its arrow to cycle through **All**, **Collapsed**, and **Needs attention**.
 - [Session drafts](../../dsh-session-draft/README.md).
   A pencil marks idle sessions with unsent drafts.
   The sidebar list toggle keeps those sessions visible in **Needs attention**.

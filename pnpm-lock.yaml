@@ -17,12 +17,12 @@ importers:
       '@miorin/dsh-session-draft':
         specifier: 0.1.0
         version: 0.1.0
+      '@miorin/dsh-session-list-toggle':
+        specifier: link:../dsh-session-list-toggle
+        version: link:../dsh-session-list-toggle
       '@miorin/dsh-watched-sessions':
         specifier: link:../dsh-watched-sessions
         version: link:../dsh-watched-sessions
-      '@miorin/dsh-workspace-list-toggle':
-        specifier: 0.1.0
-        version: 0.1.0
     devDependencies:
       esbuild:
         specifier: 0.28.2
@@ -197,10 +197,6 @@ packages:
     resolution: {integrity: sha512-gcrK2HOIKBtON8bLKuV4Vgqn87anL7RRC52F1oowcXbuzjRq3GQCM0Bd3JM4LN9mrEPL34CEFbXXPBtTFQ35aw==}
     engines: {dsh: '>=0.2.2-rc.5'}
 
-  '@miorin/dsh-workspace-list-toggle@0.1.0':
-    resolution: {integrity: sha512-AfC9swJYs++eoYYlnr5ZurlBU9JVDj+PTpfm8BSmUpkHP38Ccenr3j0+q+3XhPzzKy+EJJcBlsnUKXBPDHM0AQ==}
-    engines: {dsh: '>=0.2.2-rc.5'}
-
   esbuild@0.28.2:
     resolution: {integrity: sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==}
     engines: {node: '>=18'}
@@ -294,8 +290,6 @@ snapshots:
   '@miorin/dsh-background-jobs-sidebar@0.1.0': {}
 
   '@miorin/dsh-session-draft@0.1.0': {}
-
-  '@miorin/dsh-workspace-list-toggle@0.1.0': {}
 
   esbuild@0.28.2:
     optionalDependencies:

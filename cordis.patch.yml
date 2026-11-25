@@ -2,9 +2,9 @@
 # Regenerate the patch after editing aggregate.yml.
 
 - insert:
-    # @miorin/dsh-workspace-list-toggle
-    - id: dsh-workspace-list-toggle
-      name: '@miorin/dsh-workspace-list-toggle'
+    # @miorin/dsh-session-list-toggle
+    - id: dsh-session-list-toggle
+      name: '@miorin/dsh-session-list-toggle'
     # @miorin/dsh-session-draft
     - id: dsh-session-draft
       name: '@miorin/dsh-session-draft'
