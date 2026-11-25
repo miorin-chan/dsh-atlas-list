@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@miorin/dsh-background-jobs-sidebar':
-        specifier: 0.1.0
-        version: 0.1.0
+        specifier: link:../dsh-background-jobs-sidebar
+        version: link:../dsh-background-jobs-sidebar
       '@miorin/dsh-peak-pricing-sidebar':
         specifier: link:../dsh-peak-pricing-sidebar
         version: link:../dsh-peak-pricing-sidebar
@@ -189,10 +189,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@miorin/dsh-background-jobs-sidebar@0.1.0':
-    resolution: {integrity: sha512-7pDgVR6E/iIrtb5n8/qehNaNguiOlPMjuh15RQdO3yigSNJ540sNSgCSi0FYM63i/CWTe+z6D4vqhosUDuwpSQ==}
-    engines: {dsh: 0.2.2-rc.5}
-
   '@miorin/dsh-session-draft@0.1.0':
     resolution: {integrity: sha512-gcrK2HOIKBtON8bLKuV4Vgqn87anL7RRC52F1oowcXbuzjRq3GQCM0Bd3JM4LN9mrEPL34CEFbXXPBtTFQ35aw==}
     engines: {dsh: '>=0.2.2-rc.5'}
@@ -286,8 +282,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.28.2':
     optional: true
-
-  '@miorin/dsh-background-jobs-sidebar@0.1.0': {}
 
   '@miorin/dsh-session-draft@0.1.0': {}
 

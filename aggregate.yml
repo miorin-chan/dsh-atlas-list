@@ -12,6 +12,6 @@ plugins:
   - name: '@miorin/dsh-watched-sessions'
     spec: link:../dsh-watched-sessions
   - name: '@miorin/dsh-background-jobs-sidebar'
-    spec: 0.1.0
+    spec: link:../dsh-background-jobs-sidebar
   - name: '@miorin/dsh-peak-pricing-sidebar'
     spec: link:../dsh-peak-pricing-sidebar

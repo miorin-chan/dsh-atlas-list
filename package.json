@@ -16,13 +16,16 @@
     "aggregate"
   ],
   "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
   },
   "files": [
     "aggregate.yml",
+    "client.js",
+    "index.js",
     "cordis.patch.yml",
-    "scripts/dsh-aggregate.mjs",
     "locale/*.json",
     "icon.svg",
     "README.md",
@@ -41,22 +44,19 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build:tools": "node --input-type=module -e \"import { existsSync } from 'node:fs'; const entry = './scripts/aggregate/build.mts'; if (existsSync(entry)) await import(entry)\" --",
-    "build": "npm run --silent build:tools && node scripts/dsh-aggregate.mjs generate .",
-    "prepare": "npm run build 1>&2",
+    "build": "node ../../tools/dsh-aggregate/src/cli.mts generate .",
+    "prepare": "node --input-type=module -e \"import { existsSync } from 'node:fs'; import { execFileSync } from 'node:child_process'; const cli = '../../tools/dsh-aggregate/src/cli.mts'; if (existsSync(cli)) execFileSync(process.execPath, [cli, 'generate', '.'], { stdio: 'inherit' })\" 1>&2",
     "test": "npm run build && npm run check",
-    "check": "npm run --silent build:tools -- --check && node scripts/dsh-aggregate.mjs check .",
-    "prepublishOnly": "npm run --silent build:tools 1>&2 && node scripts/dsh-aggregate.mjs verify-release . 1>&2"
-  },
-  "devDependencies": {
-    "esbuild": "0.28.2",
-    "yaml": "2.9.1"
+    "check": "node ../../tools/dsh-aggregate/src/cli.mts check .",
+    "prepublishOnly": "node ../../tools/dsh-aggregate/src/cli.mts verify-release ."
   },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
     },
     "aggregate": {
+      "version": 1,
+      "runtimeRowId": "dsh-atlas-list",
       "plugins": [
         "@miorin/dsh-session-list-toggle",
         "@miorin/dsh-session-draft",
@@ -64,12 +64,22 @@
         "@miorin/dsh-background-jobs-sidebar",
         "@miorin/dsh-peak-pricing-sidebar"
       ]
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-ui-plugin-manager",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
     }
   },
   "dependencies": {
     "@miorin/dsh-session-draft": "0.1.0",
     "@miorin/dsh-watched-sessions": "link:../dsh-watched-sessions",
-    "@miorin/dsh-background-jobs-sidebar": "0.1.0",
+    "@miorin/dsh-background-jobs-sidebar": "link:../dsh-background-jobs-sidebar",
     "@miorin/dsh-peak-pricing-sidebar": "link:../dsh-peak-pricing-sidebar",
     "@miorin/dsh-session-list-toggle": "link:../dsh-session-list-toggle"
   }

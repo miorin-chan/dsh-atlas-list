@@ -3,8 +3,10 @@
 本仓库维护列表 Atlas 聚合包。中文界面标题是「列表模块化改良计划」，英文是 `List Modular Improvement Plan`。
 卡片元数据同步维护八种语言。
 
-[聚合清单](aggregate.yml)记录成员来源。常驻会话和峰谷时间链接到同工作区内的源码，其余成员固定 npm 版本。
-[scripts/aggregate/](scripts/aggregate/) 由默认工作区的 `tools/dsh-aggregate` 同步。
+[聚合清单](aggregate.yml)记录成员来源。
+列表三态、常驻会话、后台任务侧栏和峰谷时间链接到同工作区内的源码，保留本地已在使用的构建。
+会话草稿固定 npm 版本。本包使用默认工作区的 `tools/dsh-aggregate` 生成依赖、契约、
+`cordis.patch.yml` 与独立运行时入口（`index.js`、`client.js`）。
 生成器更新依赖字段与 patch，保留源插件的行 ID 和配置。
 成员行为在各自的源码仓库维护。保留成员的独立安装方式，同一 profile 选择一种加载方式。
 
