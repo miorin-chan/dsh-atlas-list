@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
-  "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs and DeepSeek pricing hours.",
+  "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, and see active jobs across sessions.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miorin-chan/dsh-atlas-list.git"
@@ -61,8 +61,7 @@
         "@miorin/dsh-session-list-toggle",
         "@miorin/dsh-session-draft",
         "@miorin/dsh-watched-sessions",
-        "@miorin/dsh-background-jobs-sidebar",
-        "@miorin/dsh-peak-pricing-sidebar"
+        "@miorin/dsh-background-jobs-sidebar"
       ]
     },
     "client": {
@@ -80,7 +79,6 @@
     "@miorin/dsh-session-draft": "0.1.0",
     "@miorin/dsh-watched-sessions": "link:../dsh-watched-sessions",
     "@miorin/dsh-background-jobs-sidebar": "link:../dsh-background-jobs-sidebar",
-    "@miorin/dsh-peak-pricing-sidebar": "link:../dsh-peak-pricing-sidebar",
     "@miorin/dsh-session-list-toggle": "link:../dsh-session-list-toggle"
   }
 }

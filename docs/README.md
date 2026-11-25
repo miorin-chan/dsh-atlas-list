@@ -11,9 +11,6 @@
   把会话拖到列表顶部的常驻区，可重新排序或只看需关注的会话。
 - [后台任务侧栏](../../dsh-background-jobs-sidebar/README.zh.md)。
   在账号控件上方查看运行中的任务，点击有归属会话的任务即可打开对话。
-- [峰谷时间](../../dsh-peak-pricing-sidebar/README.zh.md)。
-  在账号控件上方查看 DeepSeek 峰时、谷时和节假日时段，圆点标记当前时间。
-  在聚合包详情页可开启倒计时并调整格式。
 
 ## 兼容条件
 
@@ -47,9 +44,6 @@
 - [Background jobs sidebar](../../dsh-background-jobs-sidebar/README.md).
   See active jobs above the account control.
   Select a job linked to a session to open its conversation.
-- [Peak pricing timeline](../../dsh-peak-pricing-sidebar/README.md).
-  See DeepSeek peak, off-peak, and holiday hours above the account control.
-  Use the bundle details to turn on the countdown or change its format.
 
 ## Compatibility and installation
 

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Plano de melhoria modular das listas",
-    "description": "Alterne a visualização da barra lateral, identifique rascunhos não enviados, mantenha as sessões acompanhadas à vista e veja as tarefas em execução de todas as sessões. Veja também os horários de pico e fora de pico da DeepSeek na barra lateral.",
+    "description": "Alterne a visualização da barra lateral, identifique rascunhos não enviados, mantenha as sessões acompanhadas à vista e veja as tarefas em execução de todas as sessões.",
     "detail": "docs/DETAIL.pt.md"
   }
 }
