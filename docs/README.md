@@ -12,8 +12,8 @@
 - [后台任务侧栏](../../dsh-background-jobs-sidebar/README.zh.md)。
   在账号控件上方查看运行中的任务，点击有归属会话的任务即可打开对话。
 - [合起侧栏会话状态](../../dsh-collapsed-sidebar-status/README.zh.md)。
-  左侧栏合上时，在展开按钮旁显示运行中、待处理和已完成的会话计数，点开快速查看或跳转；
-  同时启用 Mod+K 插件时可在详情页切换为直接打开该切换器。
+  左侧栏合上时，在展开按钮旁显示运行中、待处理、已完成和置顶对话计数，支持在详情页开关与排序；
+  同时启用 Mod+K 插件时可切换为直接打开该切换器。
 
 ## 兼容条件
 
@@ -48,8 +48,8 @@
   See active jobs above the account control.
   Select a job linked to a session to open its conversation.
 - [Collapsed sidebar status](../../dsh-collapsed-sidebar-status/README.md).
-  Show running, waiting, and completed session counts beside the collapsed sidebar controls,
-  with a quick-jump popover or optional Mod+K switcher trigger.
+  Show running, waiting, completed, and pinned session counts beside the collapsed sidebar controls
+  with configurable toggles and order, plus an optional Mod+K switcher trigger.
 
 ## Compatibility and installation
 
