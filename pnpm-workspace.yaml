@@ -2,4 +2,8 @@
 allowBuilds:
   "esbuild@0.28.2": false
 minimumReleaseAgeExclude:
-  - '@miorin/dsh-background-jobs-sidebar@0.1.0'
+  - '@miorin/dsh-background-jobs-sidebar@0.1.0 || 0.1.1'
+  - '@miorin/dsh-collapsed-sidebar-status@0.1.0'
+  - '@miorin/dsh-session-draft@0.1.1'
+  - '@miorin/dsh-session-list-toggle@0.1.0'
+  - '@miorin/dsh-watched-sessions@0.1.3'

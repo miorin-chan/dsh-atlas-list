@@ -6,17 +6,17 @@ engines:
   dsh: '>=0.2.2-rc.5'
 plugins:
   - name: '@miorin/dsh-session-list-toggle'
-    spec: link:../dsh-session-list-toggle
-    enabled: true
-  - name: '@miorin/dsh-session-draft'
     spec: 0.1.0
     enabled: true
+  - name: '@miorin/dsh-session-draft'
+    spec: 0.1.1
+    enabled: true
   - name: '@miorin/dsh-watched-sessions'
-    spec: link:../dsh-watched-sessions
+    spec: 0.1.3
     enabled: true
   - name: '@miorin/dsh-background-jobs-sidebar'
-    spec: link:../dsh-background-jobs-sidebar
+    spec: 0.1.1
     enabled: true
   - name: '@miorin/dsh-collapsed-sidebar-status'
-    spec: link:../dsh-collapsed-sidebar-status
+    spec: 0.1.0
     enabled: true

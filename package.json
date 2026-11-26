@@ -84,11 +84,11 @@
     }
   },
   "dependencies": {
-    "@miorin/dsh-session-draft": "0.1.0",
-    "@miorin/dsh-watched-sessions": "link:../dsh-watched-sessions",
-    "@miorin/dsh-background-jobs-sidebar": "link:../dsh-background-jobs-sidebar",
-    "@miorin/dsh-session-list-toggle": "link:../dsh-session-list-toggle",
-    "@miorin/dsh-collapsed-sidebar-status": "link:../dsh-collapsed-sidebar-status"
+    "@miorin/dsh-session-draft": "0.1.1",
+    "@miorin/dsh-watched-sessions": "0.1.3",
+    "@miorin/dsh-background-jobs-sidebar": "0.1.1",
+    "@miorin/dsh-session-list-toggle": "0.1.0",
+    "@miorin/dsh-collapsed-sidebar-status": "0.1.0"
   },
   "homepage": "https://github.com/miorin-chan/dsh-atlas-list#readme",
   "bugs": {

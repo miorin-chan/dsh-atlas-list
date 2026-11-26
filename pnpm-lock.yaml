@@ -9,27 +9,51 @@ importers:
   .:
     dependencies:
       '@miorin/dsh-background-jobs-sidebar':
-        specifier: link:../dsh-background-jobs-sidebar
-        version: link:../dsh-background-jobs-sidebar
+        specifier: 0.1.1
+        version: 0.1.1
       '@miorin/dsh-collapsed-sidebar-status':
-        specifier: link:../dsh-collapsed-sidebar-status
-        version: link:../dsh-collapsed-sidebar-status
-      '@miorin/dsh-session-draft':
         specifier: 0.1.0
         version: 0.1.0
+      '@miorin/dsh-session-draft':
+        specifier: 0.1.1
+        version: 0.1.1
       '@miorin/dsh-session-list-toggle':
-        specifier: link:../dsh-session-list-toggle
-        version: link:../dsh-session-list-toggle
+        specifier: 0.1.0
+        version: 0.1.0
       '@miorin/dsh-watched-sessions':
-        specifier: link:../dsh-watched-sessions
-        version: link:../dsh-watched-sessions
+        specifier: 0.1.3
+        version: 0.1.3
 
 packages:
 
-  '@miorin/dsh-session-draft@0.1.0':
-    resolution: {integrity: sha512-gcrK2HOIKBtON8bLKuV4Vgqn87anL7RRC52F1oowcXbuzjRq3GQCM0Bd3JM4LN9mrEPL34CEFbXXPBtTFQ35aw==}
+  '@miorin/dsh-background-jobs-sidebar@0.1.1':
+    resolution: {integrity: sha512-3cOGAKZeA+YMKCNdJEgTqGJDg/hEEqFqGoBnRs9+iLu0JWRG2Yt1/XnIEW82l8CCfIfue448kdCg4Wv6gXkTWw==}
+    engines: {dsh: '>=0.2.2-rc.5'}
+
+  '@miorin/dsh-collapsed-sidebar-status@0.1.0':
+    resolution: {integrity: sha512-p1wT5odBy2Sbt58q9dZzoW/a9CL7qtug30IOqQ8631+peHNLToK7siBMuWIxEdj6tjcOhr99Ma888dPSY+Jb3Q==}
+    engines: {dsh: '>=0.2.2-rc.5'}
+
+  '@miorin/dsh-session-draft@0.1.1':
+    resolution: {integrity: sha512-PuPAzPY4S36700mxa1h003BzwPsFoHSbtq9+i7J5HDDPCeNYQo44aPZdv9DvNvCLvKd+YKlRQXobfo/41zmbJw==}
+    engines: {dsh: '>=0.2.2-rc.5'}
+
+  '@miorin/dsh-session-list-toggle@0.1.0':
+    resolution: {integrity: sha512-1Ric83IcnKc+mNY804znIchbfqDNHlAtGB8/v4Z2qk/EU5qm6524ks1ot2SAvmhHFds3k/CVqzZRaL87nTFw8g==}
+    engines: {dsh: '>=0.2.2-rc.5'}
+
+  '@miorin/dsh-watched-sessions@0.1.3':
+    resolution: {integrity: sha512-XBId18GaKPBwpCMTN/KGu2Pl35nuQe4kf2xCsAxD6P2/KDv6UzSz99hSE1i8WWeFQfDqq38Dzkl/wgv8aA//4A==}
     engines: {dsh: '>=0.2.2-rc.5'}
 
 snapshots:
 
-  '@miorin/dsh-session-draft@0.1.0': {}
+  '@miorin/dsh-background-jobs-sidebar@0.1.1': {}
+
+  '@miorin/dsh-collapsed-sidebar-status@0.1.0': {}
+
+  '@miorin/dsh-session-draft@0.1.1': {}
+
+  '@miorin/dsh-session-list-toggle@0.1.0': {}
+
+  '@miorin/dsh-watched-sessions@0.1.3': {}
