@@ -1,6 +1,7 @@
 {
   "name": "@miorin/dsh-atlas-list",
   "version": "0.1.0",
+  "private": false,
   "license": "MIT",
   "type": "module",
   "description": "Switch sidebar list views, mark drafts, keep watched sessions visible, see active jobs, and check collapsed sidebar session counts.",
@@ -37,7 +38,8 @@
     "CHANGELOG.md"
   ],
   "engines": {
-    "dsh": ">=0.2.2-rc.5"
+    "dsh": ">=0.2.2-rc.5",
+    "node": "^22.18.0 || >=24.11.0"
   },
   "publishConfig": {
     "access": "public",
