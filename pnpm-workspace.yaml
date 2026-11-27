@@ -7,3 +7,4 @@ minimumReleaseAgeExclude:
   - '@miorin/dsh-session-draft@0.1.1'
   - '@miorin/dsh-session-list-toggle@0.1.0'
   - '@miorin/dsh-watched-sessions@0.1.3'
+  - '@miorin/dsh-aggregate@0.1.0'
