@@ -1,5 +1,8 @@
 # 项目文档
 
+- [产品设计](../DESIGN.md)：主题定位、成员范围与成功标准。
+- [中文使用说明](../README.zh.md) · [English README](../README.md)
+
 ## 使用
 
 - [左侧栏列表三态切换](../../dsh-session-list-toggle/README.zh.md)。
